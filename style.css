@@ -1,0 +1,92 @@
+#nav{
+    display: flex;
+    gap: 20%;
+}
+#bar{
+    gap: 15%;
+}
+#button{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 35px;
+}
+.companies{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    gap: 80%;
+    margin-left: 28%;
+}
+.lady{
+    height: 500px;
+    width: 500px;
+    border-radius: 90%;    
+}
+.icons{
+    
+}
+.book{
+    display: flex;
+    gap: 20%;
+    font-size: x-large;
+}
+#form{
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.trust{
+    text-align: center;
+}
+
+@media screen and (max-width: 750px){
+    #nav{
+        flex-wrap: wrap;
+        gap: 20%;
+    }
+    #bar{
+        gap: 15%;
+    }
+    #button{
+        background-color: cornflowerblue;
+        color: white;
+        border-radius: 20px;
+        width: 70px;
+        height: 20px;
+    }
+    .img{
+        width: 20px;
+        height: 25px;
+        flex-wrap: wrap;
+    }
+    .lady{
+        height: 50px;
+        width: 50px;
+        border-radius: 90%;    
+    }
+    .icons{
+        
+    }
+    .book{
+        flex-wrap: wrap;
+        gap: 20%;
+        font-size: 30%;
+    }
+    #form{
+        background-color: white;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    .trust{
+        text-align: center;
+    }
+    .companies{
+        gap: 10%;
+    }
+
+}
+    
