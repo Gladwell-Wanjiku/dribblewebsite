@@ -1,8 +1,9 @@
-#nav{
+#navbar{
     display: flex;
-    gap: 20%;
+    gap: 40%;
 }
-#bar{
+.mininavbar{
+    display: flex;
     gap: 15%;
 }
 #button{
@@ -12,43 +13,75 @@
     width: 100px;
     height: 35px;
 }
-.companies{
+.companylogos{
     display: flex;
     width: 50px;
-    height: 50px;
+    height: 45px;
     gap: 80%;
     margin-left: 28%;
 }
-.lady{
+.socialhandles{
+    width: 20px;
+    height: 30px;
+    display: flex;
+    gap: 3%;
+}
+.ladywithbook{
     height: 500px;
     width: 500px;
-    border-radius: 90%;    
+    border-radius: 90%;      
 }
-.icons{
-    
+.place{
+    position: relative;
+    display: inline-block;
+    width: 185px;
 }
-.book{
+.place input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 40px;
+    padding: 15%;
+    width: 920px;    
+}
+.place button{
+    position: absolute;
+    margin-left: 810px;
+    padding: 8%;
+    top: 25%;
+    width: 70%;
+    border: none;
+    background-color: rgb(113,182,176);
+    border-radius: 40px;
+}
+.landingpage{
     display: flex;
-    gap: 20%;
+    gap: 25%;
     font-size: x-large;
+    margin-top: 5%;
 }
-#form{
+#body{
     background-color: white;
-    margin-left: 5%;
+    margin-left: 8%;
     margin-right: 5%;
     margin-top: 5%;
 }
-.trust{
+h3{
     text-align: center;
 }
-
-@media screen and (max-width: 750px){
-    #nav{
-        flex-wrap: wrap;
-        gap: 20%;
+#text{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: burlywood;
+}
+@media screen and (max-width: 768px){
+    #navbar{
+      gap: 3%;      
     }
-    #bar{
-        gap: 15%;
+    #mininavbar{
+      flex-wrap: wrap;
+      gap: 3%;
     }
     #button{
         background-color: cornflowerblue;
@@ -56,6 +89,17 @@
         border-radius: 20px;
         width: 70px;
         height: 20px;
+    }
+    .ladywithbook{
+        height: 150px;
+        width: 150px;
+        border-radius: 90%;      
+    }
+    .landingpage{
+        display: flex;
+        gap: 25%;
+        font-size: small;
+        margin-top: 5%;
     }
     .img{
         width: 20px;
@@ -67,7 +111,7 @@
         width: 50px;
         border-radius: 90%;    
     }
-    .icons{
+    .socialhandles{
         
     }
     .book{
@@ -84,8 +128,30 @@
     .trust{
         text-align: center;
     }
-    .companies{
-        gap: 10%;
+    .companylogos{
+        gap: 19%;
+    }
+    .place{
+        position: relative;
+        display: inline-block;
+        width: 80px;
+    }
+    .place input{
+        border: 1px solid;
+        border-radius: 30px;
+        padding-right: 40px;
+        padding: 15%;
+        width: 170px;    
+    }
+    .place button{
+        position: absolute;
+        margin-left: 15px;
+        padding: 8%;
+        top: 25%;
+        width: 70%;
+        border: none;
+        background-color: rgb(113,182,176);
+        border-radius: 40px;
     }
 
 }
